@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <PersonId>ST0000001</PersonId>
+    <FirstName>Student</FirstName>
+    <MiddleName />
+    <LastName>Student1</LastName>
+    <DateOfBirds>2016-07-29T21:21:23.0993408-04:00</DateOfBirds>
+    <CurrentAddress>
+      <CurrentDistict>HT1210, ACUL DU NORD</CurrentDistict>
+      <StreetName>111 Street</StreetName>
+      <ApparmentNumber>111</ApparmentNumber>
+    </CurrentAddress>
+    <FixedPhone>111-11111</FixedPhone>
+    <MobilePhone>111-1111</MobilePhone>
+    <Email>student@gmail.com</Email>
+    <StartDate>0001-01-01T00:00:00</StartDate>
+  </Student>
+  <Student>
+    <PersonId>ST0000002</PersonId>
+    <FirstName>Student2</FirstName>
+    <MiddleName />
+    <LastName>Student2</LastName>
+    <DateOfBirds>1990-07-29T21:21:23</DateOfBirds>
+    <CurrentAddress>
+      <CurrentDistict>HT1610, LIMBÉ</CurrentDistict>
+      <StreetName>222 Street</StreetName>
+      <ApparmentNumber>222</ApparmentNumber>
+    </CurrentAddress>
+    <FixedPhone>222-2222</FixedPhone>
+    <MobilePhone>222-2222</MobilePhone>
+    <Email>student2@gmail.com</Email>
+    <StartDate>0001-01-01T00:00:00</StartDate>
+  </Student>
+</ArrayOfStudent>

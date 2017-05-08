@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTeacher xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Teacher>
+    <PersonId>TC0000001</PersonId>
+    <FirstName>Vitaliy</FirstName>
+    <MiddleName>Valenty</MiddleName>
+    <LastName>Shkuratov</LastName>
+    <DateOfBirds>1975-07-19T20:38:09</DateOfBirds>
+    <CurrentAddress>
+      <CurrentDistict>HT1210, ACUL DU NORD</CurrentDistict>
+      <StreetName>530 rue Hall</StreetName>
+      <ApparmentNumber>222</ApparmentNumber>
+    </CurrentAddress>
+    <FixedPhone>777-7777</FixedPhone>
+    <MobilePhone>777-7777</MobilePhone>
+    <Email>vitalij.shkuratov@gmail.com</Email>
+    <TeacherStatus>full_time</TeacherStatus>
+  </Teacher>
+  <Teacher>
+    <PersonId>TC0000002</PersonId>
+    <FirstName>Teacher</FirstName>
+    <MiddleName />
+    <LastName>Teacher2 </LastName>
+    <DateOfBirds>1975-07-19T20:38:09</DateOfBirds>
+    <CurrentAddress>
+      <CurrentDistict>HT1510, BORGNE</CurrentDistict>
+      <StreetName>333 rue Eglise</StreetName>
+      <ApparmentNumber>333</ApparmentNumber>
+    </CurrentAddress>
+    <FixedPhone>111-1111</FixedPhone>
+    <MobilePhone>111-1111</MobilePhone>
+    <Email>teacher.teacher@gmai.com</Email>
+    <TeacherStatus>contract</TeacherStatus>
+  </Teacher>
+</ArrayOfTeacher>

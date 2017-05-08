@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="5b3d1980-a15a-474a-9dcb-4adf606e62ba" name="UMLUseCaseDiagram1" linkedPackageId="d5ba33d0-d7b5-4449-8c2e-24aa177e03c0" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="5e96b341-df04-4a9e-9bfe-a0cdeac9b4d5">
+      <elementDefinition Id="c4902739-6696-4dd7-a802-23daf171eb3d" />
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="b29a0df2-61cb-46d1-adcf-3143914115b6">
+      <profileInstance Id="408f648c-968e-46fc-be08-87f67e733ae5" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a0f031fe-1556-4df6-8de7-da2f9173ee3f">
+      <profileInstance Id="d4651051-24c1-4b1c-b220-535867fa7989" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9e6c9cf9-1ff2-4c9a-b2b5-94d307202e82">
+      <profileInstance Id="d8198acc-ae85-4941-9dff-4ea89083ae4c" name="CSharpProfile">
+        <elementDefinition Id="ee4d65f6-598f-45c7-a5fa-9284e40a425e" />
+      </profileInstance>
+      <elementDefinition Id="9afadfa7-384b-46ee-ac3d-e93bcbd14cbe" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="b98e5c81-635f-4faa-8132-e412cd3ecf52" name="Administrator&#xD;&#xA;&lt;primary actor&gt;" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="98c80dc7-d56c-4110-ad76-e492be0de4f2" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="80fd5b2b-6602-497e-b1c1-6a6d01ded6d4" name="Registered Teacher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e7872559-59e0-419b-83a4-6f12464fc9f5" />
+        <additions>
+          <include Id="2711d43f-9b8d-4702-ac57-b4e022138ec5">
+            <useCaseMoniker Id="93f45532-a8eb-4e49-ae9f-83593f44098d" LastKnownName="Check existing teacher" />
+            <elementDefinition Id="ae145b28-a3f0-4291-87f0-5155a1433429" />
+          </include>
+          <include Id="3d10acbb-7a33-4b3b-bab7-7f7b637e57e0">
+            <useCaseMoniker Id="2defb78f-ed18-48f1-89c4-417c72b3282f" LastKnownName="Assign new Id" />
+            <elementDefinition Id="b1f7612d-b5c4-4130-a1ba-654842acb1cd" />
+          </include>
+          <include Id="7ef94698-3c75-471c-a527-f129ccc7d230">
+            <useCaseMoniker Id="37991aa1-93f7-4b95-95a6-34222ee755d9" LastKnownName="Add teacher" />
+            <elementDefinition Id="e359aa4a-6f4d-4cef-b45b-cfe191f7d30b" />
+          </include>
+          <include Id="6f1d784a-30aa-4d07-a96b-da509e723291">
+            <useCaseMoniker Id="8d3b5a9f-326b-4dfa-b907-4ea434c05431" LastKnownName="Validate requrement field" />
+            <elementDefinition Id="a882ed85-05f1-478c-9b44-a8c02ed155dd" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="c27cc1f2-5e90-4cb5-899e-933f0977c79e" name="Application&#xD;&#xA;&lt;secondary actor&gt;" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e08b6d0f-0847-49b8-a813-000cf184df12" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" name="Teachers" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a8a50b66-21d6-4d7c-8e9a-71c000a64220" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="c670ae40-f333-4d14-9e50-4790d59e7b29" name="DataBase&#xD;&#xA;&lt;secondary actor&gt;" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="93ae827b-0abf-4735-bdcf-097a0db10849" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="93f45532-a8eb-4e49-ae9f-83593f44098d" name="Check existing teacher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b0b135a5-8973-4f09-8f31-32040452e423" />
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2defb78f-ed18-48f1-89c4-417c72b3282f" name="Assign new Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0c544f5e-8407-42b5-a16a-8e28e51af87d" />
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e6c303f4-d522-4ae5-a478-518de9836930" name="Display message if teacher exist" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0f091a91-0b75-4a11-9761-e20899a2d30a" />
+        <extendedCases>
+          <extend Id="88027756-b4ad-4375-8c96-d84db26cb804">
+            <useCaseMoniker Id="80fd5b2b-6602-497e-b1c1-6a6d01ded6d4" LastKnownName="Registered Teacher" />
+            <elementDefinition Id="10bb9189-ea42-4465-a6e5-b7d927bf6bae" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="37991aa1-93f7-4b95-95a6-34222ee755d9" name="Add teacher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="226e61b5-ced2-4154-ab2b-23387d71379f" />
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="8d3b5a9f-326b-4dfa-b907-4ea434c05431" name="Validate requrement field" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="201cc6dd-0353-40f9-b995-4f6450e7b521" />
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="da8f9913-f924-481e-ae76-f6eebe31d4bc" name="Delete Teacher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9c995a8a-fdbb-4703-a5e1-99d079177a3b" />
+        <additions>
+          <include Id="2d967825-e874-4a02-9c7a-1f1ae238ea2f">
+            <useCaseMoniker Id="3c7ad533-9f05-4812-921d-f2b43f230e0d" LastKnownName="Find teacher by Id" />
+            <elementDefinition Id="a078d450-9461-439d-9b95-6a8756503099" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="3c7ad533-9f05-4812-921d-f2b43f230e0d" name="Find teacher by Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8b7a4859-40f3-4596-921c-3214aa93760d" />
+        <additions>
+          <include Id="41090fb9-7708-43a9-be40-1ffc65aa1f99">
+            <useCaseMoniker Id="82f82a0a-c2c0-4808-a892-764a0d448a59" LastKnownName="Enter teacher Id" />
+            <elementDefinition Id="534ffeae-23a7-4d5c-9bfb-a994a2947eb2" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="82f82a0a-c2c0-4808-a892-764a0d448a59" name="Enter teacher Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="adedeb8d-1d66-4354-9fa5-df550a472f55" />
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7e5df757-a2e2-454d-9f92-b43985dbd026" name="Edit Teacher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="51d340ed-1669-45c2-a2b1-17394c53f6dc" />
+        <additions>
+          <include Id="8aa7fbba-d564-4846-b1c1-b28f8de78b36">
+            <useCaseMoniker Id="801afa44-b701-40c7-8930-62a9f87c148d" LastKnownName="Find teacher by Id" />
+            <elementDefinition Id="d8708f7d-67a8-49b8-88da-bf71ba296777" />
+          </include>
+          <include Id="7e940b65-6926-4c57-8c04-61b44c82c76a">
+            <useCaseMoniker Id="466cb6a6-a3c0-4b4f-a94e-5414b82e3122" LastKnownName="Make a changes" />
+            <elementDefinition Id="cf010867-f248-465d-8e5b-4656986a6116" />
+          </include>
+          <include Id="39e876b4-1200-4903-889c-003dbd2ba9a5">
+            <useCaseMoniker Id="8fc31d72-903f-438f-9f92-523e07847e0f" LastKnownName="Submit changes" />
+            <elementDefinition Id="c1258933-2299-45b3-964c-6f077140c405" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="0e695a6f-c5c3-4f5d-98d3-7d87cf35ecee" name="Application&#xD;&#xA;&lt;secondary actor&gt;1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8a8a1f7f-a1c7-462b-9b63-e851ae4f11ec" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="801afa44-b701-40c7-8930-62a9f87c148d" name="Find teacher by Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="56fca259-7d93-4c12-a6ab-8137dcbf3605" />
+        <additions>
+          <include Id="68dca22d-85aa-455d-8c24-e6d17b011810">
+            <useCaseMoniker Id="0c2a1d1a-36ad-40ee-9c4f-cd3e12f79b0a" LastKnownName="Enter teacher Id" />
+            <elementDefinition Id="47ecfcc8-4dab-4f2e-887c-106346a9db7d" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="0c2a1d1a-36ad-40ee-9c4f-cd3e12f79b0a" name="Enter teacher Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e540aeb6-daa7-4d13-a870-156f2fe94a8f" />
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="466cb6a6-a3c0-4b4f-a94e-5414b82e3122" name="Make a changes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b62e59e8-ccbb-4755-b3e6-ddb16d22f5bf" />
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="8fc31d72-903f-438f-9f92-523e07847e0f" name="Submit changes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7328f990-d514-463a-90e7-192616000c85" />
+        <subjects>
+          <subsystemMoniker Id="ad78adf4-63b9-4d40-8af1-58112847c5ff" LastKnownName="Teachers" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" name="Students" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b227c5b3-9025-43cb-97c3-136a37e6658b" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="731923c4-76c1-48e1-82f2-8cc0a9a00c5e" name="Registered Student" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5a545f73-8050-45e5-bb32-276933853635" />
+        <additions>
+          <include Id="0e4169bd-47cf-4bad-aee9-6c5dc9d39322">
+            <useCaseMoniker Id="93d6c3eb-096a-45fe-b38d-e4cdf9ded809" LastKnownName="Check existing student" />
+            <elementDefinition Id="626b536c-4e84-4a7c-8270-380fb915c047" />
+          </include>
+          <include Id="a690bcd7-ae27-4c9b-bdf4-2e37455c27b7">
+            <useCaseMoniker Id="9ea99639-f125-4550-b979-ff9c09e9353e" LastKnownName="Assign new Id" />
+            <elementDefinition Id="977d6493-b0a5-4afe-bad8-0c68843a6e14" />
+          </include>
+          <include Id="b72b3fd1-3d74-4ffa-bafc-db1e4bb64aab">
+            <useCaseMoniker Id="9e59939c-8d86-4256-a684-549c2e47d491" LastKnownName="Add student" />
+            <elementDefinition Id="5fe4809e-0496-4770-b1ca-c6a9f661a81e" />
+          </include>
+          <include Id="966e8bd5-ef63-4c31-aea3-8330fb66e60b">
+            <useCaseMoniker Id="1a7852ca-3a5a-48a5-9f98-bc10f3255e80" LastKnownName="Validate requrement field" />
+            <elementDefinition Id="877d3cc9-57ca-432e-857f-f2f75f033cc7" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="93d6c3eb-096a-45fe-b38d-e4cdf9ded809" name="Check existing student" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c779a8fe-462b-4011-b4a8-fb18196ea53c" />
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9ea99639-f125-4550-b979-ff9c09e9353e" name="Assign new Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="45ace0d8-da85-4a33-a4e1-4316261405f7" />
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="acf817fa-9a43-4036-9ad4-26c90451975a" name="Display message if student exist" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="24d9a247-a695-4dff-a6d9-a543ebdae63d" />
+        <extendedCases>
+          <extend Id="4c3972cf-af32-4eef-9a18-964b24571245">
+            <useCaseMoniker Id="731923c4-76c1-48e1-82f2-8cc0a9a00c5e" LastKnownName="Registered Student" />
+            <elementDefinition Id="cfd56e99-eb27-40a6-b496-94e5a2816947" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9e59939c-8d86-4256-a684-549c2e47d491" name="Add student" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="41cc41fd-41d6-403e-9012-661581841046" />
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1a7852ca-3a5a-48a5-9f98-bc10f3255e80" name="Validate requrement field" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="60238465-36aa-42d2-b8e1-b09243ddf9d6" />
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2fafd8ac-def8-484d-8a21-c2a73c222131" name="Delete student" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a8f687dc-bfe4-4f78-b572-6f83609ef675" />
+        <additions>
+          <include Id="8fb165ee-cc4a-45cd-8ed9-cb4f66c6fc5c">
+            <useCaseMoniker Id="98814b71-6f9e-4ae9-ba1e-4f08b50577ed" LastKnownName="Find student by Id" />
+            <elementDefinition Id="09af9915-40ba-4f32-9eed-7dbeb563994d" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="98814b71-6f9e-4ae9-ba1e-4f08b50577ed" name="Find student by Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3503bcb3-729d-4053-b6b3-5263fc705d7f" />
+        <additions>
+          <include Id="68377146-3a3e-4f5c-8399-6b3530f8b53f">
+            <useCaseMoniker Id="7b7cd026-e6f1-4f4c-a93d-12272d2a7435" LastKnownName="Enter student Id" />
+            <elementDefinition Id="db0a64cd-a145-4a7d-83ee-8db522167b57" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7b7cd026-e6f1-4f4c-a93d-12272d2a7435" name="Enter student Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="14683a3d-7677-4882-a34a-370115706c0c" />
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="598dedfa-d816-4e93-bfae-098997a3faa6" name="Edit Student" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fb271e3f-f3c9-40f3-a201-4b91679b03c9" />
+        <additions>
+          <include Id="b4354e27-9743-4ebf-8f3c-ed2931f34b72">
+            <useCaseMoniker Id="c535a7a0-bb6b-40f9-86af-0e01e7ed4bd6" LastKnownName="Find student by Id" />
+            <elementDefinition Id="d1aba48d-dd52-4e46-b426-190b1d25a858" />
+          </include>
+          <include Id="ea8ff27a-bd61-45a9-b310-1bc702f03ccc">
+            <useCaseMoniker Id="c6f002ef-5004-46b6-8e12-e362879d4396" LastKnownName="Make a changes" />
+            <elementDefinition Id="e0437ea9-c318-476f-8be1-3957d1ca9fd3" />
+          </include>
+          <include Id="02c31168-aacb-47f0-a058-6a8f2c87ed32">
+            <useCaseMoniker Id="235edb47-da59-4c32-b6f1-a58b2766af66" LastKnownName="Submit changes" />
+            <elementDefinition Id="6172b1c1-8c3e-481f-94d8-3577c4b7e226" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c535a7a0-bb6b-40f9-86af-0e01e7ed4bd6" name="Find student by Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="63385110-0151-4551-ab57-f023ad83a4cd" />
+        <additions>
+          <include Id="10200b31-c417-4280-b0b3-753033d2a85b">
+            <useCaseMoniker Id="128d67e7-9a00-4ea4-bde9-c6867599ecec" LastKnownName="Enter student Id" />
+            <elementDefinition Id="629c61d5-d956-4694-8070-ae9e1dd5943a" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="128d67e7-9a00-4ea4-bde9-c6867599ecec" name="Enter student Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1322e71a-67e0-446c-99ed-d3ea9c7fe9e3" />
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c6f002ef-5004-46b6-8e12-e362879d4396" name="Make a changes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7e48866a-b45c-4c49-b13f-96025a8fe221" />
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="235edb47-da59-4c32-b6f1-a58b2766af66" name="Submit changes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="76aec207-3dd3-4473-93fe-2dc8d750cc4c" />
+        <subjects>
+          <subsystemMoniker Id="77dfd571-aad8-4575-b1a3-0d13a172adf3" LastKnownName="Students" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f5d4bfe0-b544-45e6-9f63-5ccddecf13d7" name="Administrator&#xD;&#xA;&lt;primary actor&gt;1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="aaba8201-2cd5-4037-8156-8269b7d76b1b" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="9ccb1936-b569-4226-830a-bd1db55c2e6a" name="Application&#xD;&#xA;&lt;secondary actor&gt;2" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="de9c76f9-28d9-4872-9fa2-5faffcf468ae" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="a761ef86-1d3e-462c-8eb1-3fe8ad1ff4dd" name="DataBase&#xD;&#xA;&lt;secondary actor&gt;1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1a2a5f9d-bf5d-48d5-837d-15bdf1a98d66" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" name="Groups" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a75fbc2f-cca1-48a7-a9dd-44b0a8fdb1c5" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c5b1ee4f-c613-425e-8f76-e776804f8842" name="Registered Group" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="392b5186-7386-4cfe-8866-808065f6fab6" />
+        <additions>
+          <include Id="a095848a-d3ea-4366-af43-8098e5f50f08">
+            <useCaseMoniker Id="18146336-b6c5-4265-a084-3dd77bfaa43c" LastKnownName="Chose Course from the list" />
+            <elementDefinition Id="c62df582-32f8-4ed1-83dc-e0ab6fe002f4" />
+          </include>
+          <include Id="999f2040-338b-4eef-afae-a14aa9a38f1c">
+            <useCaseMoniker Id="45bd928f-05f3-4fbf-b52d-07740a7f785b" LastKnownName="Assign new Id" />
+            <elementDefinition Id="51c0ae9e-beec-4e04-8d8e-1ac248b16ad1" />
+          </include>
+          <include Id="46505e9b-93d0-42ad-800c-3fd49ed13886">
+            <useCaseMoniker Id="b271675b-4bae-4878-9fa6-cec91369a082" LastKnownName="Add students" />
+            <elementDefinition Id="d3906ce6-60de-4d86-a23e-5f6dc6b118df" />
+          </include>
+          <include Id="f5167270-04d7-48fd-9612-619c4f2fdc87">
+            <useCaseMoniker Id="70f45214-f140-42eb-b952-3ad0dd526d69" LastKnownName="Validate requrement field" />
+            <elementDefinition Id="1a276358-fdd9-4b46-9756-cc07da96402d" />
+          </include>
+          <include Id="4b2df895-01a4-43a4-8db0-bdbc330aa652">
+            <useCaseMoniker Id="6c9f0274-544b-473d-a7d3-91dd59853ee1" LastKnownName="Add teacher" />
+            <elementDefinition Id="ccf337b3-5ea1-4dea-8bf5-8e9710200870" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="18146336-b6c5-4265-a084-3dd77bfaa43c" name="Chose Course from the list" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="553b34d0-4fc3-4e7e-a726-9673463c54cd" />
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="45bd928f-05f3-4fbf-b52d-07740a7f785b" name="Assign new Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0fc344e4-89e8-4d51-ad8c-0af75e6bcbad" />
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e358a4c6-1894-4e01-8d14-cc6eb45e2a89" name="Display message if person is already in the group" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7c7751c2-c106-43fc-aeaa-92f5260e065e" />
+        <extendedCases>
+          <extend Id="213d6b76-0b5e-4d34-bb22-18e3724a7e0a">
+            <useCaseMoniker Id="c5b1ee4f-c613-425e-8f76-e776804f8842" LastKnownName="Registered Group" />
+            <elementDefinition Id="c40ce869-549f-4ee9-8029-b7326541cb2e" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b271675b-4bae-4878-9fa6-cec91369a082" name="Add students" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e1a1ea20-af51-4442-a285-73afbc997218" />
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="70f45214-f140-42eb-b952-3ad0dd526d69" name="Validate requrement field" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eaac64a9-66b4-496a-88ac-3d5920a6215b" />
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bbb37da3-c73d-4a76-a5d6-3d5ea44140aa" name="Delete group" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="85363585-1957-4a97-8c89-f6278053d6b7" />
+        <additions>
+          <include Id="3a4d8dde-4626-438d-b2d2-7261c581e48f">
+            <useCaseMoniker Id="58bc3d94-f601-4b37-9277-44c80486cf5d" LastKnownName="Find group by Id" />
+            <elementDefinition Id="51efc18a-95f6-43c0-b83c-c4b83bf1701e" />
+          </include>
+          <include Id="6a66785b-e5f6-4c1f-be2e-1f0a1c25e761">
+            <useCaseMoniker Id="23a136b7-e367-49d0-828a-3d0b66ef5992" LastKnownName="Submit deleting" />
+            <elementDefinition Id="7eea5cb0-45f9-4305-8177-c0fd0fd054d0" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="58bc3d94-f601-4b37-9277-44c80486cf5d" name="Find group by Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f7e4d00f-45e0-4a2c-b9cd-5a9fb46dc6bc" />
+        <additions>
+          <include Id="ad4eb140-8814-4bf4-8b66-1a91a62ca768">
+            <useCaseMoniker Id="18de4725-8e8b-40e2-84aa-22b47d696d7a" LastKnownName="Enter group Id" />
+            <elementDefinition Id="3f73cab7-bd81-4dff-8b6c-f48dbe47fbee" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="18de4725-8e8b-40e2-84aa-22b47d696d7a" name="Enter group Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="77904018-b8f9-4398-80b7-9626cbe34b5e" />
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1724a1cd-9bc2-4c80-a82d-c290b3d4fb9a" name="Edit Group" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="382d8f48-d54e-4850-a85d-b8d4ec6a7a27" />
+        <additions>
+          <include Id="308b1718-06e6-46d3-a529-ddaa1c9e59da">
+            <useCaseMoniker Id="de0f9dfc-5193-4e98-a2ee-a0298d522184" LastKnownName="Find group by Id" />
+            <elementDefinition Id="78095e62-7330-44a3-8690-5d634a3fa72f" />
+          </include>
+          <include Id="a68a605b-c438-41f5-898a-f9ca55db29c1">
+            <useCaseMoniker Id="c35313fb-c3cd-4bd9-8c4f-654c1efdd63b" LastKnownName="Add person to group" />
+            <elementDefinition Id="cd17bfcf-407f-4594-84e5-fea0f5c19ef3" />
+          </include>
+          <include Id="b838d90a-eb18-4ba1-acd1-9711fc9a10b4">
+            <useCaseMoniker Id="567daf1c-9053-478f-9bb9-2457885b1a17" LastKnownName="Submit changes" />
+            <elementDefinition Id="e12f805b-37ab-43d8-a46f-8953ffea89b6" />
+          </include>
+          <include Id="aba0af30-a9f9-447c-8946-32f31b72a7fa">
+            <useCaseMoniker Id="6e2d5c2a-c9d1-427f-8c62-283a2640584f" LastKnownName="Dele person from group" />
+            <elementDefinition Id="374014cf-ce95-407c-a833-8d99d6d0a988" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="de0f9dfc-5193-4e98-a2ee-a0298d522184" name="Find group by Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5bc89a35-4dab-47a0-9a22-529c60a3f64d" />
+        <additions>
+          <include Id="f9cba9d4-e5c9-4169-b165-aefffa4f75ed">
+            <useCaseMoniker Id="704b71bd-1741-4f87-b887-f3ce7896fb41" LastKnownName="Enter group Id" />
+            <elementDefinition Id="65ff04b1-fb05-469c-aa7b-97898608e9a2" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="704b71bd-1741-4f87-b887-f3ce7896fb41" name="Enter group Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0bb97d32-46d6-4ee1-acee-0355cc6488f6" />
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c35313fb-c3cd-4bd9-8c4f-654c1efdd63b" name="Add person to group" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="34aa85cd-5cfb-4458-bcba-5086b2a1a495" />
+        <additions>
+          <include Id="4dbc96c1-fa67-419b-9dea-93c3b97a75ca">
+            <useCaseMoniker Id="042321e6-edbc-44e3-bae8-8eff6450188c" LastKnownName="Chouse the person from the list" />
+            <elementDefinition Id="dd8fef73-0983-4ae3-9eed-cd39145f9d88" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="567daf1c-9053-478f-9bb9-2457885b1a17" name="Submit changes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="98c1fd02-86a8-4c43-94c3-bdce17890763" />
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="6c9f0274-544b-473d-a7d3-91dd59853ee1" name="Add teacher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4d000a18-1088-41e8-80d3-cf1d26d0e2e9" />
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="23a136b7-e367-49d0-828a-3d0b66ef5992" name="Submit deleting" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fc0b2a0f-be45-4110-b20f-ff7bc43bf95d" />
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="d8c0894c-2833-464f-95a1-312e1aba193a" name="Administrator&#xD;&#xA;&lt;primary actor&gt;11" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="de6b54bd-727c-4b48-88e2-a538589ddd5e" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="b1305553-8994-44c7-8d8c-c8ade4d8ac64" name="Application&#xD;&#xA;&lt;secondary actor&gt;21" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f3823ea9-4c35-496c-a10c-19480fb5df1f" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="5a0485db-487d-4c15-b8b1-6bd8096aa58d" name="DataBase&#xD;&#xA;&lt;secondary actor&gt;11" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5c13a31c-da03-4e0e-9ea8-766eeb29b2c5" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="6e2d5c2a-c9d1-427f-8c62-283a2640584f" name="Dele person from group" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5378bdd3-8775-4f4e-b25d-39c228c2185a" />
+        <additions>
+          <include Id="f3da5e15-0f0c-4e1b-8911-184676c1f317">
+            <useCaseMoniker Id="e9ed4a1f-ec12-4742-a217-55ac18985f16" LastKnownName="Find person by Id" />
+            <elementDefinition Id="5e1a968e-d230-470c-ba94-70891ea03fd2" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="042321e6-edbc-44e3-bae8-8eff6450188c" name="Chouse the person from the list" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3bacbea1-cc21-43dd-a5ea-123ec6ee429c" />
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e9ed4a1f-ec12-4742-a217-55ac18985f16" name="Find person by Id" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5e56745f-cffd-49c2-ba46-0516719eeab9" />
+        <subjects>
+          <subsystemMoniker Id="03817743-9c56-4eb7-9f3c-1dc6bdc10f75" LastKnownName="Groups" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="36e1c603-85bd-42d6-9c69-0a498cb1a2db" name="Main Windows" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="66711199-5e73-49f2-a4d8-1a36f5545052" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e1eca532-ee69-4d14-9d3e-52d935705537" name="Manage college personal" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cb0c65f9-23bd-4022-aa92-d7f6a43cd96e" />
+        <additions>
+          <include Id="3321af4c-be02-4463-8871-ac3978c0f19d">
+            <useCaseMoniker Id="0030ea1e-8098-43d5-970e-98458f1b3f44" LastKnownName="Open Teachesr' menu" />
+            <elementDefinition Id="fc9009b4-49d8-442e-be45-ac285f7952d6" />
+          </include>
+          <include Id="1351a278-25a7-4330-b325-81160054a665">
+            <useCaseMoniker Id="9fcf8fe1-55eb-49b5-a1b6-2429c1c1e84b" LastKnownName="Open Grous' menu" />
+            <elementDefinition Id="ad1494d3-5cae-42a0-8ea1-332c0a543b42" />
+          </include>
+          <include Id="3befab4c-d602-4748-aa66-18726c040a78">
+            <useCaseMoniker Id="29a50849-81bc-406f-af4f-eaf6509918e3" LastKnownName="Open Students' menu" />
+            <elementDefinition Id="60b56abb-aeaf-494c-83e0-ef38c16d907a" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="36e1c603-85bd-42d6-9c69-0a498cb1a2db" LastKnownName="Main Windows" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0030ea1e-8098-43d5-970e-98458f1b3f44" name="Open Teachesr' menu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4128e7cb-6075-43bb-8a29-bff5933ca27d" />
+        <subjects>
+          <subsystemMoniker Id="36e1c603-85bd-42d6-9c69-0a498cb1a2db" LastKnownName="Main Windows" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9fcf8fe1-55eb-49b5-a1b6-2429c1c1e84b" name="Open Grous' menu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2c70488a-2034-4bed-a531-42caf2b951ae" />
+        <subjects>
+          <subsystemMoniker Id="36e1c603-85bd-42d6-9c69-0a498cb1a2db" LastKnownName="Main Windows" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="29a50849-81bc-406f-af4f-eaf6509918e3" name="Open Students' menu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="953b8e77-acbd-4570-8c56-4be5d55a7df6" />
+        <subjects>
+          <subsystemMoniker Id="36e1c603-85bd-42d6-9c69-0a498cb1a2db" LastKnownName="Main Windows" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="899e6546-30e5-4b07-adda-23e28a7669d3" name="Administrator&#xD;&#xA;&lt;primary actor&gt;111" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8ed19d73-d8a0-4c21-bc21-4f953b668b46" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="bfe9c968-7c49-4361-97b0-b6911b03ef00" name="Application&#xD;&#xA;&lt;secondary actor&gt;211" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="00de5982-611e-4e5e-aad9-6a2445b8155b" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="974693cb-5c43-44b9-9124-c79ea58348e2" name="DataBase&#xD;&#xA;&lt;secondary actor&gt;111" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8094b5e8-53ad-49b2-8b10-c33a4c7be27d" />
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="d5ba33d0-d7b5-4449-8c2e-24aa177e03c0" name="ModelingProject2">
+    <elementDefinition Id="e4ebfde3-110b-4850-80b0-57f6ba908f39" />
+  </package>
+</useCaseModelRoot>

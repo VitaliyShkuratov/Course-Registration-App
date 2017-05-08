@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\bin\Debug\CourseRegictrationApp.exe.config
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\bin\Debug\CourseRegictrationApp.exe
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\bin\Debug\CourseRegictrationApp.pdb
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\obj\Debug\CourseRegictrationApp_2_6.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\obj\Debug\CourseRegictrationApp.GUI.NewCourseForm.resources
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\obj\Debug\CourseRegictrationApp.GUI.CollegeCourseManagement.resources
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\obj\Debug\CourseRegictrationApp.GUI.TabsFormGroups.resources
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\obj\Debug\CourseRegictrationApp.GUI.TabsFormStudents.resources
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\obj\Debug\CourseRegictrationApp.GUI.TabsFormTeachers.resources
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\obj\Debug\CourseRegictrationApp.Properties.Resources.resources
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\obj\Debug\CourseRegictrationApp_2_6.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\obj\Debug\CourseRegictrationApp.exe
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_6\CourseRegictrationApp\obj\Debug\CourseRegictrationApp.pdb
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_7\CourseRegictrationApp\bin\Debug\CourseRegictrationApp.exe.config
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_7\CourseRegictrationApp\obj\Debug\CourseRegictrationApp.exe
+C:\Users\Admin\Desktop\FinalProjectC#\CourseRegictrationApp_2_7\CourseRegictrationApp\obj\Debug\CourseRegictrationApp.pdb

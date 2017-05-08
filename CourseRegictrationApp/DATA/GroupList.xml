@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Group>
+    <CurrentGroupId>COM102/0000001</CurrentGroupId>
+    <Course>
+      <CourseId>COM102</CourseId>
+      <CourseName>INTERPERSONAL COMMUNICATION</CourseName>
+      <CourseDescription>This course is designed to increase students’ communication knowledge and skills in their relationships with others, including friends, family, coworkers, and romantic partners.</CourseDescription>
+      <CourseDuration>75</CourseDuration>
+      <CoursePrerequisite>none</CoursePrerequisite>
+    </Course>
+    <StudentList>
+      <CurrentPersonList />
+    </StudentList>
+    <TeacherList>
+      <CurrentPersonList>
+        <Teacher>
+          <PersonId>TC0000002</PersonId>
+          <FirstName>Teacher</FirstName>
+          <MiddleName />
+          <LastName>Teacher2 </LastName>
+          <DateOfBirds>1975-07-19T20:38:09</DateOfBirds>
+          <CurrentAddress>
+            <CurrentDistict>HT1510, BORGNE</CurrentDistict>
+            <StreetName>333 rue Eglise</StreetName>
+            <ApparmentNumber>333</ApparmentNumber>
+          </CurrentAddress>
+          <FixedPhone>111-1111</FixedPhone>
+          <MobilePhone>111-1111</MobilePhone>
+          <Email>teacher.teacher@gmai.com</Email>
+          <TeacherStatus>contract</TeacherStatus>
+        </Teacher>
+      </CurrentPersonList>
+    </TeacherList>
+  </Group>
+  <Group>
+    <CurrentGroupId>COM150/0000001</CurrentGroupId>
+    <Course>
+      <CourseId>COM150</CourseId>
+      <CourseName>PRESENTATION SKILLS</CourseName>
+      <CourseDescription>The presentation skills course teaches students how to research, structure, and deliver effective oral presentations.It requires active student participation in order to build both skills and confidence.</CourseDescription>
+      <CourseDuration>75</CourseDuration>
+      <CoursePrerequisite>none</CoursePrerequisite>
+    </Course>
+    <StudentList>
+      <CurrentPersonList>
+        <Student>
+          <PersonId>ST0000001</PersonId>
+          <FirstName>Student</FirstName>
+          <MiddleName />
+          <LastName>Student1</LastName>
+          <DateOfBirds>2016-07-29T21:21:23.0993408-04:00</DateOfBirds>
+          <CurrentAddress>
+            <CurrentDistict>HT1210, ACUL DU NORD</CurrentDistict>
+            <StreetName>111 Street</StreetName>
+            <ApparmentNumber>111</ApparmentNumber>
+          </CurrentAddress>
+          <FixedPhone>111-11111</FixedPhone>
+          <MobilePhone>111-1111</MobilePhone>
+          <Email>student@gmail.com</Email>
+          <StartDate>0001-01-01T00:00:00</StartDate>
+        </Student>
+      </CurrentPersonList>
+    </StudentList>
+    <TeacherList>
+      <CurrentPersonList>
+        <Teacher>
+          <PersonId>TC0000001</PersonId>
+          <FirstName>Vitaliy</FirstName>
+          <MiddleName>Valenty</MiddleName>
+          <LastName>Shkuratov</LastName>
+          <DateOfBirds>1975-07-19T20:38:09</DateOfBirds>
+          <CurrentAddress>
+            <CurrentDistict>HT1210, ACUL DU NORD</CurrentDistict>
+            <StreetName>530 rue Hall</StreetName>
+            <ApparmentNumber>222</ApparmentNumber>
+          </CurrentAddress>
+          <FixedPhone>777-7777</FixedPhone>
+          <MobilePhone>777-7777</MobilePhone>
+          <Email>vitalij.shkuratov@gmail.com</Email>
+          <TeacherStatus>full_time</TeacherStatus>
+        </Teacher>
+      </CurrentPersonList>
+    </TeacherList>
+  </Group>
+</ArrayOfGroup>
